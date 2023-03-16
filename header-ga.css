@@ -1,0 +1,143 @@
+/* header part start */ 
+header{
+   position: fixed;
+    display: flex;
+    margin:0px ;
+    width: 100%; 
+    height: 10%;
+    padding-left: -2px;
+    background-color:hsl(200, 100%, 20%);
+    z-index: 1;
+   }
+   
+   .logo{
+    position: absolute;
+    position: relative;
+    width: 280px;
+    height: 40px;
+    margin: 5px 5px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 25px;
+     font-weight: 700;
+     margin-top: 10px;
+     display: flex;
+     color: #f80b33;
+   }
+   .logo a{
+color: #f8f7f5;
+   }
+   
+   .navbar{
+    margin:50px;
+    margin-top: 2px;
+    justify-content: center;   
+    align-items: center;
+   }
+   .navbar ul{
+        list-style: none;
+       }
+          .navbar ul li{
+            background: color #ad9494;
+            width: 150px;
+            border: 2px solid #faf8f5;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            float: left;
+            color: #faf7f4;
+            font-size: 20;
+            font-weight: bold;
+            text-transform: uppercase;
+           }
+             .navbar ul li a{
+                text-decoration: none;
+                color: #f5f4f2;
+                text-align: center;
+             }
+             .navbar ul li:hover{
+               background-color: #ecaa99;
+               transition: all ease-in 0.5s;
+             }
+             .navbar ul ul{
+               display: none;
+
+               
+             }
+             .navbar ul ul li{
+            background-color: rgb(27, 27, 27);
+
+              
+            }
+             .navbar ul li:hover>ul{
+               display: block;
+               display: flexbox;
+             }          
+/* Header part end */ 
+
+footer{
+  top: 2385px;
+  position: absolute;
+  position: relative;
+  width:100%;
+  height: 185Px;
+  background-color:hsl(200, 100%, 20%);
+margin: 0px;
+ 
+
+}
+
+.name h2{
+  margin: 1px 1px 0px 0px;
+  padding: 10px;
+  text-align: center;
+ font-family: Arial, Helvetica, sans-serif;
+ color: rgb(247, 244, 244);
+ font-size: 30px;
+ font-weight: bold;
+ position: relative;
+
+ 
+ }
+ .text p{
+  position: absolute;
+   margin: auto;
+   width: 600px;
+   text-align: left;
+   position: relative;
+   padding: 1px;
+   color: rgb(247, 245, 245);
+ }
+ .icon1 {
+  position: absolute;
+  position: relative;
+  width: 100%;
+  height: 60px;
+  background-color:hsl(200, 100%, 14%);
+  font-size: 12px;
+  padding: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  text-align: center;
+}
+ .icon1 i{
+  top: 1px;
+  position: absolute;
+     position: relative;
+   font-size: 24px;
+  text-align: center;
+  line-height: 1;
+   
+ }
+ .copy {
+  position: absolute;
+  position: relative;
+   width: 100%;
+   height:35px;
+   background-color:hsl(200, 100%, 20%);
+   font-size: 18px;
+   text-align:left;
+   color: bisque;
+   bottom: 0px;
+   padding-left: 10px;
+   padding-top: 5px;
+ }
