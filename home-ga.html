@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <title>Document</title>
+</head>
+<style>
+    main{
+     margin:0;
+     width:auto;
+     height: auto;
+     text-align: center;
+     border: 15px solid rgb(197, 202, 211);
+     color: white;
+     display: grid;
+     grid-template-rows: 160px 200px 400px 60px;
+     grid-template-columns: repeat(3.1fr) 250px;
+     row-gap: 10px;
+     column-gap: 10px;
+    }
+    .bmain{
+      margin:570px 0px 0 0;
+    }
+  
+   
+    .div1{background-color: #856a49;
+          grid-column:span 4;
+          
+          
+    }
+    .div2{background-color: #856a49;
+    
+    }
+    .div3{background-color: rgb(221, 133, 26);
+    
+    }
+    .div4{background-color: rgb(71, 12, 233);
+  
+    }
+    .div5{background-color: #4b3b28;
+  grid-row: 2/4;
+  grid-column: 4/5;
+  
+    }
+    .div6{background-color: bisque;
+      grid-column: 1/4;
+    }
+    .div7{background-color: #8b8175;
+      grid-column:span 4;
+    }
+  body{
+    padding:0 ;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+  }
+  /*   Header part start */          
+  header{
+  margin:0 ;
+    width: 100%; 
+    background-color: rgb(199, 208, 216);
+    display: flex;
+  }
+  .logo{
+    margin: 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 20px;
+  }
+  .navbar{
+    margin: 10px;
+    margin-top: 0px;
+    display: flex;
+     justify-content: center;   
+    align-items: center;
+  }
+  .navbar ul{
+    list-style: none;
+  }
+  .navbar ul li{
+    background: color #ad9494;
+    width: 150px;
+    border: 2px solid #e7860f;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: #4b3b28;
+    font-size: 20;
+   font-weight: bold;
+  text-transform: uppercase;
+  
+    
+  }
+  .navbar ul li a{
+    text-decoration: none;
+    color: #4b3b28;
+  text-align: center;
+  }
+  .navbar ul li:hover{
+  background-color: #e7860f;
+  transition: all ease-in 0.5s;
+  }
+  .navbar ul ul{
+    display: none;
+  
+  }
+  .navbar ul li:hover>ul{
+    display: block;
+    display: flexbox;
+  }
+  /*   Header part start */ 
+  
+  /*   Footer part start */ 
+  footer{
+    position: relative;
+    margin-bottom: 0px;
+    text-align: center;
+    bottom: 0;
+    height: 180px;
+    background-color: #726c66;
+    width: 100%;
+    color: aliceblue;
+  }
+  .name h2{
+   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(250, 247, 247);
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+  margin-top: 10px;
+  
+  
+  }
+  .text p{
+    margin: auto;
+    display: flex;
+    width: 600px;
+    text-align: center;
+    position: relative;
+    top: -23px;
+  }
+  .icon i{
+    font-size: 32px;
+    text-align: center;
+    position: relative;
+    top: -35px;
+    padding: 10px;
+  }
+  .copy {
+    height: 30px;
+    background-color: #8b8175;
+    font-size: 14px;
+    text-align:center;
+    position: relative;
+    top:-45px;
+    line-height: 30px;
+  }
+  /*   Footer part End */ 
+  
+  /*   Form1 part Start */ 
+  .form1{
+  position: absolute;
+  margin: 10px 10px;
+  background-color: cadetblue;
+  color: aliceblue;
+  width: fit-content;
+  height: fit-content;
+  font-size: 30px;
+  padding: 2ex;
+  border-radius: 10%;
+  box-shadow: #ad9494 #e7860f #faf6f6 #faf6f6;
+  
+  }
+  .form1 input{
+    padding: 5px 8px;
+    font-size: 16px;
+    border-radius: 50px;
+    border-color: rgb(240, 17, 65);
+    box-shadow: #4b3b28;
+    border: 5px;
+  }
+  .form1 .pts{
+    font-size: 16;
+    border: 2px #ad9494;
+   color: #e7860f;
+  }
+  .form1 .sbt{
+    background-color: blue;
+    font-size: 16;
+    border: 2px #ad9494;
+   color: #e7860f;
+  }
+  /*   Form part End */ 
+  /*Mobile view*/
+  @media (max-width: 768px){
+  
+  }
+  /*Mobile view*/
+  /*Desktop view*/
+  @media (min-width:1020px) {
+    
+  }
+  /*Desktop view*/
+  
+  /*Taplet view*/
+  @media (max-width:602px){
+  
+  }
+  /*Taplet view*/
+  @media screen and(min-width:18px) {
+    .bs2 h5{
+      background-color: #1f1e1c;
+    }
+  }
+  .bs2 h5{
+    margin: 250px 10px;
+    width: 200px;
+    height: 100px;
+    background-color: #e7860f;
+  }
+  </style>
+  <body>
+    <!-- Header part Start-->
+    <header>
+       <div class="logo">
+          Babul
+       </div>
+       <div class="navbar">
+          <ul>
+              <li> <a href="bin/home-ga.html">Home</a></li>
+              <li><a href="home-ga.html">Blog</a></li>
+              <li><a href="#">Service</a>
+                 <ul>
+                   <li>Graphics</li>
+                   <li>web Design</li>
+                   <li>Web Develop</li>
+                 </ul>
+              </li>
+              <li><a href="">About us</a></li> 
+          </ul>
+      </div>
+    </header>
+   <!--form1 part start-->
+   <div class="form1">
+    <form action="#" method="get">
+      Email: <br>
+      <input type="text" name="username"id="Email"><br>
+      Password: <br>
+      <input type="password" name="password"id="pass"><br>
+    
+      <input type="reset" value="Reset" class="pts">
+      <input type="submit" value="Log in" class="sbt">
+    </form>
+     
+   </div>
+   <div class="bs2">
+  <h5>
+    sfjsfsd
+  </h5>
+   </div>
+   <!-- Form1 part end-->
+  <div class="bmain">
+  <main>
+      <div class="div1"><Header>Hearder</Header></div>
+      <div class="div2">1</div>
+      <div class="div3">2</div>
+      <div class="div4">3</div>
+      <div class="div5">Slidber</div>  
+      <div class="div6">Main-Content</div>
+      <div class="div7">Fooder</div>
+  
+  </main>
+  
+   <!-- Footer part Start-->
+  <footer>
+    <div class="name">
+      <h2>Royal Homeo Center</h2>
+    </div >
+    <div class="text">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error debitis eos eligendi modi totam consequuntur eius dolor. Voluptatem sint expedita, ipsam itaque, tempora nulla assumenda illum molestiae minima eaque sequi.
+      </p>
+    </div>
+    <div class="icon"> 
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-linkedin"></i>
+      <i class="fa-brands fa-youtube"></i>
+    </div>
+    <div class="copy">
+     Copyright @2021 by GhiGa Programmer
+    </div>
+  </footer>
+   <!-- Footer part End-->
+  </body>
+  </html>
