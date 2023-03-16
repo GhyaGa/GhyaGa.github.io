@@ -1,0 +1,410 @@
+
+body{
+    margin:0p ;
+    width: 100%;
+    height: 400vh;
+    background-color:#F9f7d4;
+    font-family: 'Lato', sans-serif;
+}
+     a{
+      text-decoration: none;
+    }
+/* container part end */ 
+
+  .searcharea{
+    position: fixed;
+    display: flex;
+    right: 80px;
+    top: 160px;
+    width: 220px;
+    height: 45px;
+    background-color: #aa9d93;
+  
+    justify-content: center;
+    align-items: center;
+    border-radius: 10% 10% 10% 10%/50% 50% 50% 50%;
+    box-shadow: 2px 2px 2px 20px rgb(241, 237, 237);
+    box-sizing: border-box;
+    z-index: 1;
+    border: 1px solid rgb(158, 154, 154);
+ }
+ .searchbox{
+  position: absolute;
+  right:30px;
+  top: 5px;
+  background-color: cornsilk;
+  text-align: center;
+  border-radius: 10% 10% 10% 10%/50% 50% 50% 50%;
+ }
+ .searchbox i{
+  position: absolute;
+  
+  left: -13px;
+ top: 5px;
+ font-size: 21px;
+  background-color: #da721e;
+  text-align: center;
+  border-radius: 30% 30% 30% 30%/50% 50% 50% 50%;
+ }
+ .searchbox input{
+  position: absolute;
+  right: 20px;
+    width: 150px;
+    height: 30px;
+  border:none;
+  outline: none;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 21px;
+  padding: 1px 1px;
+  text-align: center;
+  border-radius: 10% 10% 10% 10%/50% 50% 50% 50%;
+ }
+ .searchbox input::placeholder{
+  position: absolute;
+  right: 40px;
+    color: blue;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 21px;
+    text-align: center;
+ }
+ 
+   a{
+    text-decoration: none;
+  }
+   
+      .logo1 a{
+        text-shadow: 2px 2px 30px rgb(240, 232, 232) ;
+        font-weight:bold ;
+        color: rgb(27, 27, 27); 
+        font-size: 1rem;
+        letter-spacing: 1;
+    
+ }
+ 
+ .section-img{
+  position: absolute;
+  position: relative;
+  top: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+ height: 120px;
+ background-color: #29231e;
+ border-radius: 50% 10% 40% 10%/50% 50% 50% 50%;
+
+ }
+ .section1 h2{
+  margin-left: 35px;
+ }
+ .sectionButton1{
+  position: absolute;
+  color: rgb(55, 4, 241);
+  margin-top: 68px;
+  margin-left: 75px;
+  
+    left: 65%;
+    top: 38%;
+   transform: translate(-90%, -50%);
+   text-align: center;
+ }
+ .sectionButton1 .btn1{
+  font-size: 23px;
+  background-color: rgb(36, 39, 38);
+  color: rgb(38, 145, 238);
+font-weight: 800;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+
+ }
+ .iconarea{
+position: fixed;
+width: 35%;
+height: 550;
+left: 110px;
+top:65%;
+ transform: translateY(-50%);
+ border-radius: 20px;
+ background-color: rgba(255, 255, 255);
+ box-shadow: 2px 2px 30px rgba(053, 033, 0, 52);
+padding: 5px 0px;
+z-index: 1;
+ }
+ .iconarea a{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 5px;
+  
+ }
+ samp{
+  color: #da721e;
+
+ }
+ .btn1{
+  position: fixed;
+  right: 70px;
+  top:70px;
+  width: 170px;
+  height: 45px;
+  background-color: #29231e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10% 10% 10% 10%/50% 50% 50% 50%;
+  box-shadow: 1px 1px 1px 5px rgba(196, 143, 143);
+  box-sizing: border-box;
+  z-index: 1;
+  border: 1px solid rgba(73, 94, 94);
+ }
+ 
+ .Royal{
+  position: absolute;
+  
+  margin-left: 280px;
+  width: 260px;
+  height: 400px;
+  top: 80px;
+  background-color: aliceblue;
+  right: 360px;
+  padding: 21px;
+  text-align: center;
+  box-shadow: 1px 1px 1px 5px rgb(209, 195, 195);
+  border-radius: 0% 40% 0% 10%/50% 50% 50% 50%;
+ }
+
+.Hom{
+  text-align: left;
+  background-color: antiquewhite;
+  letter-spacing: 0px;
+  line-height: 15%;
+}
+   .icon-bar {
+    width: 90px;
+    background-color: #555;
+  }
+  
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .active {
+    background-color: #f70656;
+  }
+
+  .babul{
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    height: 240px;
+    background-color: #347C98;
+  }
+  .babul2{
+    position: absolute;
+    position: relative;
+    display: flex;
+    top: 27%;
+    width: 100%;
+    height: 680px;
+    background-color:#937078;
+  }
+  .home{
+    position: absolute;
+    position: relative;
+    left: 1014px;
+    top:399%;
+    width: 15%;
+    height:140px;
+    background-color:#347c98;
+    border-radius: 10% 0% 0% 20%/50% 50% 50% 50%;
+    padding: 30px;
+  }
+
+  
+  .body1{
+    position: absolute;
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 0%;
+
+  }
+  .column {
+    float: left;
+    width: 23%;
+    padding: 10px;
+    float: none;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column  {
+      width: 100%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column  {
+      width: 100%;
+    }
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Add a gray background color with some padding */
+  .body3 {
+    top: 100%;
+    position: absolute;
+    position: relative;
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+  }
+  
+  /* Header/Blog Title */
+  .header2 {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer2 {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+/* Clear floats after the columns--*/ 
+.body4{
+  top: 100%;
+  position: absolute;
+  position: relative;
+  width: 49%;
+  height: 400px;
+  background-color: #ffffff;
+  padding: 10px;
+}
+.card4 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+.body5{
+  top: 48.6%;
+ left: 350Px;
+  position: absolute;
+  position: relative;
+  width: 32%;
+  height: 450px;
+  background-color: #ffffff;
+  padding: 10px;
+}
+.card1 {
+ 
+  top: ;
+  position: absolute;
+  position: relative;
+
+  background-color: #f0ebe8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
